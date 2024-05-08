@@ -17,7 +17,7 @@ This project implements a rule engine for a retail store that qualifies orders' 
 - Clone the project repository to your local machine.
 - Configure the database connection parameters in the writeToDatabase function.
 - Update the input file path (ordersFilePath) and output file paths (csvFilePath, logsFilePath) in the Project.scala file if necessary.
-# 3) Running the Application:
+# 3) Runn the Application
 # 4) Viewing Results:
 - After running the application, you can find the processed orders in the specified CSV file (output/processedOrders.csv).
 - The engine events are logged in the output/logs.csv file for reference.
