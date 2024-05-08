@@ -1,6 +1,6 @@
 # Retail Store Rule Engine
 # Overview
-This project implements a rule engine for a retail store that qualifies orders' transactions for discounts based on a set of qualifying rules. It automatically calculates the proper discount based on various criteria such as product expiration date, product category, purchase quantity, etc. The discounts are then applied to the orders' final prices, and the results are stored in a database.
+This project leverages functional programming principles to implement a rule engine for a retail store that qualifies orders' transactions for discounts based on a set of qualifying rules. It automatically calculates the proper discount based on various criteria such as product expiration date, product category, purchase quantity, etc. The discounts are then applied to the orders' final prices, and the results are stored in a database.
 # Features
 - Qualify orders' transactions for discounts based on predefined rules.
 - Calculate the proper discount based on specific conditions such as product expiration date, product category, etc.
