@@ -1,0 +1,11 @@
+CREATE TABLE orders (
+    order_date VARCHAR2(255),
+    expiry_date VARCHAR2(255),
+    product_name VARCHAR2(255),
+    quantity NUMBER,
+    unit_price NUMBEr(10,2),
+    channel VARCHAR2(255),
+    payment_method VARCHAR2(255),
+    discount NUMBER(10,2),
+    final_price NUMBER(10,2)
+);
