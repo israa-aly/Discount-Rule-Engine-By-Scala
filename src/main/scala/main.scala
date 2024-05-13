@@ -109,7 +109,15 @@ object Project extends App {
       // Select the top two discounts
       val topTwo = appliedRules.sorted.takeRight(2)
       // Calculate the overall discount
-      val discount = if (topTwo.nonEmpty) topTwo.sum / 2.toDouble else 0.0
+      val discount = if (topTwo.nonEmpty) {
+        if (topTwo.length == 1) {
+          topTwo.head / 1.toDouble
+        } else {
+          topTwo.sum / 2.toDouble
+        }
+      } else {
+        0.0
+      }
       // Log whether the order has a discount
       if (discount != 0.0) {
         writeLog(s"   Log Level: Info   Message:This order has a discount= $discount", logWriter)
