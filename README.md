@@ -41,13 +41,13 @@ the discount
 5) Processed Orders: call the apply rules function and return the result 
 6) Define writeToDatabase function that will take the processed orders and insert them 
 in a table at oracle data base 
- Load the Oracle JDBC driver
- Establish a connection to the database
- Prepare the SQL insert statement
- Create a prepared statement for batch insertion
- Iterate over the processed orders and add them to the batch
- Execute the batch insertion
- Close the prepared statement and the database connection
+- Load the Oracle JDBC driver
+- Establish a connection to the database
+- Prepare the SQL insert statement
+- Create a prepared statement for batch insertion
+- Iterate over the processed orders and add them to the batch
+- Execute the batch insertion
+- Close the prepared statement and the database connection
 7) Define a writeToCSV Function that will write the processed orders to a csv file 
 8) Define a function to write log messages during the running of the rule engine and 
 write to a csv file
